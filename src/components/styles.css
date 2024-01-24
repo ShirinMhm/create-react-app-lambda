@@ -1,0 +1,21 @@
+/* src/components/styles.css */
+
+.card {
+    background-color: #f0f0f0;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: move;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  
+  .card.dragging {
+    opacity: 0.5;
+  }
+  
+  .list.drag-over {
+    border: 2px dashed #aaa;
+  }
+  

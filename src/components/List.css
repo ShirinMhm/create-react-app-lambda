@@ -1,0 +1,57 @@
+/* List.css */
+.list {
+    background-color: #ebecf0;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    width: 300px;
+    box-shadow: 0 1px 0 rgba(9,30,66,.25);
+  }
+  
+  .list-header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-options {
+    display: flex;
+  }
+  
+  .list-options button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  
+  .list-options button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
+  
+  .options-dropdown {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 5px;
+    right: 0;
+  }
+  
+  .options-dropdown button {
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .options-dropdown button:hover {
+    background-color: #dfe1e6;
+  }
+  

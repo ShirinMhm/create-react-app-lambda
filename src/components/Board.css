@@ -1,0 +1,41 @@
+/* Board.css */
+.board-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .board {
+    display: flex;
+  }
+  
+  .list {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .add-list-form {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .card {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .drag-over {
+    border-color: #5cb85c;
+  }
+  
+  .dragging {
+    opacity: 0.5;
+  }
+  
